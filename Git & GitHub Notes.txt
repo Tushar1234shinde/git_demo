@@ -21,11 +21,12 @@ Git is like CTRL + Z for your entire project, with memory.
 GitHub is an online platform that hosts Git repositories and helps developers collaborate.
 
 🧠 Difference Between Git & GitHub
-Git	GitHub
-Tool	Platform
+Git	          GitHub
+Tool	        Platform
 Runs locally	Runs online
-Tracks code	Stores & shares code
-Open source	Owned by GitHub
+Tracks code	  Stores & shares code
+Open source	  Owned by GitHub
+
 🔹 3. Install Git
 📥 Download
 
@@ -249,4 +250,5 @@ Create Pull Request
 🔹 Push project
 🔹 Use branches
 🔹 Create PR
+
 🔹 Resolve conflicts

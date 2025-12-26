@@ -1,0 +1,252 @@
+🔹 1. What is Git?
+✅ Definition
+
+Git is a distributed version control system that helps you:
+
+Track changes in code
+
+Work with multiple developers
+
+Go back to previous versions
+
+Manage project history safely
+
+🧠 Simple Meaning
+
+Git is like CTRL + Z for your entire project, with memory.
+
+🔹 2. What is GitHub?
+✅ Definition
+
+GitHub is an online platform that hosts Git repositories and helps developers collaborate.
+
+🧠 Difference Between Git & GitHub
+Git	GitHub
+Tool	Platform
+Runs locally	Runs online
+Tracks code	Stores & shares code
+Open source	Owned by GitHub
+🔹 3. Install Git
+📥 Download
+
+👉 https://git-scm.com/downloads
+
+✅ Verify Installation
+git --version
+
+🔹 4. Configure Git (First Time Only)
+git config --global user.name "Your Name"
+git config --global user.email "yourmail@gmail.com"
+
+
+Check:
+
+git config --list
+
+🔹 5. Basic Git Concepts
+📁 Repository (Repo)
+
+A folder tracked by Git.
+
+🟡 Working Directory
+
+Where you edit files.
+
+🟢 Staging Area
+
+Files ready to be committed.
+
+🔵 Commit
+
+A saved snapshot of your project.
+
+🔹 6. Create Your First Git Repository
+mkdir myproject
+cd myproject
+git init
+
+
+📁 This creates a hidden .git folder.
+
+🔹 7. Git Status
+git status
+
+
+Shows:
+
+Modified files
+
+Staged files
+
+Untracked files
+
+🔹 8. Add Files to Staging Area
+git add filename
+
+
+Add all files:
+
+git add .
+
+🔹 9. Commit Changes
+git commit -m "Initial commit"
+
+
+📌 Commit message should be clear & meaningful.
+
+🔹 10. Git Log (View History)
+git log
+
+
+Short version:
+
+git log --oneline
+
+🔹 11. Branching in Git
+🌿 Branch
+
+A separate line of development.
+
+Commands:
+git branch
+git branch feature1
+git checkout feature1
+
+
+Shortcut:
+
+git checkout -b feature1
+
+🔹 12. Merge Branches
+git checkout main
+git merge feature1
+
+🔹 13. Git Diff (See Changes)
+git diff
+
+🔹 14. Undo Changes
+❌ Undo staged file
+git reset filename
+
+❌ Undo commit (keep code)
+git reset --soft HEAD~1
+
+❌ Delete commit + code
+git reset --hard HEAD~1
+
+
+⚠️ Be careful with --hard
+
+🔹 15. Git Ignore (.gitignore)
+
+Used to ignore:
+
+node_modules
+
+.env
+
+build files
+
+Example .gitignore:
+
+node_modules/
+.env
+dist/
+
+🔹 16. GitHub Account Setup
+
+Create account on GitHub
+
+Click New Repository
+
+Copy repository URL
+
+🔹 17. Push Local Code to GitHub
+Connect Repo
+git remote add origin https://github.com/username/repo.git
+
+Push Code
+git push -u origin main
+
+🔹 18. Clone a Repository
+git clone https://github.com/username/repo.git
+
+🔹 19. Pull Latest Changes
+git pull origin main
+
+🔹 20. Fork (Important for Open Source)
+
+Fork = Copy someone else’s repo to your account.
+
+Steps:
+
+Fork repo
+
+Clone it
+
+Make changes
+
+Push
+
+Create Pull Request
+
+🔹 21. Pull Request (PR)
+
+Used to:
+
+Request owner to merge your changes
+
+Code review
+
+Collaboration
+
+🔹 22. Git Stash (Temporary Save)
+git stash
+git stash pop
+
+🔹 23. Git Tags (Versions)
+git tag v1.0
+git push origin v1.0
+
+🔹 24. Common Git Errors
+❌ Error: not a git repository
+
+👉 Run git init
+
+❌ Merge conflict
+
+👉 Manually edit file → add → commit
+
+🔹 25. Best Practices
+
+✅ Commit small changes
+✅ Write good commit messages
+✅ Pull before push
+✅ Use branches
+✅ Use .gitignore
+
+🔹 26. GitHub Profile Tips
+
+Add README.md
+
+Pin projects
+
+Write clear project descriptions
+
+Add screenshots
+
+🔹 27. Real-Life Workflow (Developer)
+git clone
+git checkout -b feature
+git add .
+git commit
+git push
+Create Pull Request
+
+🔹 28. What You Should Practice (Important)
+
+🔹 Create repo
+🔹 Push project
+🔹 Use branches
+🔹 Create PR
+🔹 Resolve conflicts

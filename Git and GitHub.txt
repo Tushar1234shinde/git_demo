@@ -63,19 +63,43 @@ git commit -m "message"				........... commit files with some message
 
 Push and pull
 push: push used to upload changed or new file to GitHub, upload local repo content to remote repo
-git push origin main 
+git push origin main 				........... push changes
+
+
+init command: used to create a new git repo
+
+git init
+git remote add origin LINK
+git remote -v					............ to verify remote
+git branch					............ to check branch
+git branch -M main				............ rename branch
+git push origin main
+
+cd ..						............ to get out of folder
+mkdir NAME					............ to make a new directory
 
 
 
+Branch command
+git branch 					............ to check branch
+git branch -M main				............ to rename branch
+git checkout BRANCH_NAME			............ to navigate
+git checkout -b NEW_BRANCH_NAME			............ to create new branch
+git branch -d BRANCH_NAME			............ to delete branch
 
 
 
+MERGING CODE
+git diff BRANCH_NAME				............ to compare commits, branches,files &more
+git merge BRANCH_NAME				............ to merge 2 branches
 
 
+Pull Request : it lets you tell others about changes you've pushed to a branch in a repository on GitHub
 
+pull command: used to fetch download content from a remote repo and immediately update the local repo to match that content
+git pull origin main				........... pull command
 
-
-
+ 
 
 
 

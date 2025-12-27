@@ -1,0 +1,125 @@
+Git and GitHub
+
+
+Git: Git is a version  control system,
+Git is a open source platform,
+Version control is a tool that help to track changes in code
+
+many companies uses git
+it is popular
+
+GitHub: Website that allows developers to store and manage their code using git.
+
+
+Folder = Directory = Repository = Repo
+
+create repository
+commit
+edit readme file
+commit
+
+download vs_code and git in system
+
+
+Open git Bash
+git --version					...........to check git version
+ls						........... list
+clear						........... clear command
+pwd						........... working directory
+
+Configuring git
+git config --global user.name "USERNAME"	...........configuring username
+git config --global user.email "EMAIL"		...........configuring email
+git config --list				...........list the configuring details
+
+
+OPEN VS_CODE
+
+Clone and Status
+
+Clone: Cloning a repository on local machine
+To copy GitHub folder in our system
+git clone ENTER LINK OF REPO			........... clone the repo, using link
+ls -a						........... list hidden files
+ls -Force					........... use this if ls -a is not supported
+	(if git folder is available then it is GitHub file.)
+
+Status: Describe the changes, if your GitHub file and clone file have some changes it will show errors.
+Status like modified, untrack etc.
+git -status					........... show the status of your current repo
+
+Use photo for the reference
+
+
+Add and Commit
+
+add: add new or changed files in your directory to the git staging area
+git add.FILE_NAME 				........... add a single untracked file to staged
+git add.					........... add all file from untracked to staged
+
+commit: Saves the changes completely, enterd message should be meaningful
+git commit -m "message"				........... commit files with some message
+
+
+Push and pull
+push: push used to upload changed or new file to GitHub, upload local repo content to remote repo
+git push origin main 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

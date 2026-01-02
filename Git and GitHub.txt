@@ -46,7 +46,7 @@ ls -Force					........... use this if ls -a is not supported
 
 Status: Describe the changes, if your GitHub file and clone file have some changes it will show errors.
 Status like modified, untrack etc.
-git -status					........... show the status of your current repo
+git status					........... show the status of your current repo
 
 Use photo for the reference
 
@@ -54,8 +54,8 @@ Use photo for the reference
 Add and Commit
 
 add: add new or changed files in your directory to the git staging area
-git add.FILE_NAME 				........... add a single untracked file to staged
-git add.					........... add all file from untracked to staged
+git add FILE_NAME 				........... add a single untracked file to staged
+git add .					........... add all file from untracked to staged
 
 commit: Saves the changes completely, enterd message should be meaningful
 git commit -m "message"				........... commit files with some message
@@ -100,6 +100,7 @@ pull command: used to fetch download content from a remote repo and immediately 
 git pull origin main				........... pull command
 
  
+
 
 
 
